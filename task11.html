@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<title>hello</title>
+	<meta charset="utf-8" >
+	<meta name="author" content="sifan zhang">
+	<meta name="keywords" content="sifan zhang">
+	<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum=1.0,user-scalable=no">
+
+	<style>
+	  *{padding:0;margin:0;border:0;font:inherit;box-sizing:border-box;}
+	  html{font-size:62.5%;}
+	  a{text-decoration:none;display:block;}
+	  ul li{list-style:none;}
+	  html,body{height:100%;}
+	  img{max-width:100%;}
+	  body{font-family:Microsoft YaHei,SimSun;line-height:150%;font-size:12px;background:#F5F5F5;}
+	  h1{font-weight:normal;font-size:100%;}
+	  /* header section */
+	  header{position:relative;width:100%;height:44px;background:#91D4DA;z-index:33;color:#fff;}
+	  header a{position:absolute;left:0;height:100%;width:20%;font-size:1.5em;line-height:44px;display:inline-block;margin-left:2%;color:#fff;}
+	  header h1{height:44px;padding-left:40%;font-size:1.5em;line-height:44px;}
+	  nav{position:relative;width:100%;height:44px;color:#000;}
+	  nav ul li{display:inline-block;width:19%;height:44px;line-height:44px;color:#00;text-align:center;font-size:1.6em;}
+	  nav ul li a{color:#000;}
+	  .banner{position:relative;width:100%;height:190px;overflow:hidden;background:#fff;}
+	  .banner a{height:100%;}
+	  .banner img{width:100%;height:100%;text-align:center;}
+	   /* list section */
+	   .list{padding:15px 0 7px;background:#fff;background:#fff;}
+	  .list-first{width:100%;height:65px;overflow:hidden;}
+	  .list-first li{display:inline-block;width:19%;float:left;}
+	  .list-first a{width:100%;margin:0 auto;}
+	  .list-first span{width:45px;height:40px;background:url(images/1101.jpg) no-repeat;display:block;margin:0 auto;}
+	  .list-first p{height:25px;line-height:25px;color:#333;font-size:1.1em;text-align:center;}
+	  .list-second{width:100%;height:150px;padding:10px 7px 0;background:#fff;}
+	  .list-box{width:32%;height:100%;overflow:hidden;float:left;}
+	  .list-box a{width:100%;height:100%;overflow:hidden;box-sizing:border-box;}
+	  .list-box img{width:80%;height:70%;text-align:center;margin:0 auto;display:block;}
+	  .list-box h1{font-weight:bold;text-align:center;font-size:1.2em;color:#000;}
+	  .list-box h2{text-align:center;color:#000;}
+	  /* section */
+	  section{margin-top:20px;background:#fff;}
+	  section h1{padding-left:20px;font-size:1.2em;}
+	  .sec1-first{margin:10px 10px 10px;width:94%;height:120px;border-top:2px solid #ccc;box-sizing:border-box;overflow:hidden;padding:10px 0;}
+	  .sec1-first img{float:left;border:1px solid #FDC15F;width:30%;height:100%;}
+	  .sec1-first-box{text-align:center;width:30%;height:40px;background:#ccc;display:inline-block;float:left;margin-left:4%;margin-top:2%;}
+	  .sec1-first-box span{line-height:40px;}
+	  /* footer */
+	  .footerfun{border-bottom:2px solid #ccc;width:100%;margin:0 auto;height:120px;overflow:hidden;box-sizing:border-box;padding:3% 2%;background:#fff;}
+	  .footer1-img{height:100%;width:30%;overflow:hidden;box-sizing:border-box;}
+	  .footer1-box{width:66%;height:100%;float:right;position:relative;}
+	  .footer1-box h1{padding-top:10%;font-size:1.6em;}
+	  .footer1-box span{position:absolute;bottom:5px;display:block;color:#ccc;}
+	  .footer2{position:relative;height:150px;width:100%;padding:1% 4%;background:#fff;}
+	  .footer2 h1{font-size:1.6em;}
+	  .footer2 img{display:block;width:33%;float:left;}
+	  .footer2 span{display:block;position:absolute;left:5%;bottom:2%;color:#ccc;}
+	  .some{width:100%;height:60px;}
+	</style>
+</head>
+<body>
+	<header>
+	  <a href="#">&lt返回</a><h1>这是标题</h1>
+	</header>
+	<nav>
+	  <ul>
+		<li><a href="#">导航</a></li><li><a href="#">导航</a></li><li><a href="#">导航</a></li><li><a href="#">导航</a></li><li><a href="#">导航</a></li>
+	  </ul>
+	</nav>
+	<div class="banner"><a href="#"><img src="images/0601.jpg"></a></div>
+	<div class="list">
+	  <ul class="list-first">
+	    <li><a href="#"><span class="list-first-span"></span><p>标签</p></a></li>
+		<li><a href="#"><span class="list-first-span"></span><p>标签</p></a></li>
+		<li><a href="#"><span class="list-first-span"></span><p>标签</p></a></li>
+		<li><a href="#"><span class="list-first-span"></span><p>标签</p></a></li>
+		<li><a href="#"><span class="list-first-span"></span><p>标签</p></a></li>
+	</div>
+	<div class="list-second">
+	  <div class="list-box"><a href="#"><img src="images/1102.jpg"><h1>分栏一</h1><h2>分栏小标题</h2></a></div>
+	  <div class="list-box"><a href="#"><img src="images/1102.jpg"><h1>分栏一</h1><h2>分栏小标题</h2></a></div>
+	  <div class="list-box"><a href="#"><img src="images/1102.jpg"><h1>分栏一</h1><h2>分栏小标题</h2></a></div>
+	</div>
+	<section>
+	  <h1>模块一</h1>
+	  <div class="sec1-first">
+	    <img src="images/1102.jpg">
+		<div class="sec1-first-box"><span>这是文案</span></div>
+		<div class="sec1-first-box"><span>这是文案</span></div>
+		<div class="sec1-first-box"><span>这是文案</span></div>
+		<div class="sec1-first-box"><span>这是文案</span></div>
+	  </div>
+	  <div class="sec1-first">
+	    <img src="images/1102.jpg">
+		<div class="sec1-first-box"><span>这是文案</span></div>
+		<div class="sec1-first-box"><span>这是文案</span></div>
+		<div class="sec1-first-box"><span>这是文案</span></div>
+		<div class="sec1-first-box"><span>这是文案</span></div>
+	  </div>
+	</section>
+	<section>
+	  <h1>模块二</h1>
+	  <div class="sec1-first">
+	    <img src="images/1102.jpg">
+		<div class="sec1-first-box"><span>这是文案</span></div>
+		<div class="sec1-first-box"><span>这是文案</span></div>
+		<div class="sec1-first-box"><span>这是文案</span></div>
+		<div class="sec1-first-box"><span>这是文案</span></div>
+	  </div>
+	  <div class="sec1-first">
+	    <img src="images/1102.jpg">
+		<div class="sec1-first-box"><span>这是文案</span></div>
+		<div class="sec1-first-box"><span>这是文案</span></div>
+		<div class="sec1-first-box"><span>这是文案</span></div>
+		<div class="sec1-first-box"><span>这是文案</span></div>
+	  </div>
+	</section>
+	
+	<footer>
+	  <div class="footerfun">
+	    <img class="footer1-img" src="images/1102.jpg">
+		<div class="footer1-box">
+		  <h1>这是文章标题字号是22的文章标题</h1>
+		  <span>文章来源&nbsp;&nbsp;6分钟前</span>
+		</div>
+	  </div>
+	  <div class="footerfun">
+	    <img class="footer1-img" src="images/1102.jpg">
+		<div class="footer1-box">
+		<h1>这是另一个标题</h1>
+		<span>文章来源&nbsp;&nbsp;7分钟前</span>
+	    </div>
+	  </div>
+	  <div class="footer2">
+	    
+		<h1>这是也是文章标题字号是22的文章标题</h1>
+		<img src="images/1102.jpg"><img src="images/1102.jpg"><img src="images/1102.jpg">
+		<span>文章来源 6分钟前</span>
+	  </div>
+	  <div class="some"></div>
+	</footer>
+	
+</body>
+</html>
